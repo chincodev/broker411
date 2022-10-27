@@ -12,7 +12,7 @@ class ServiceSection extends Component {
         "headingFive": "Organize all your media content easily",
         "headingSix": "Work faster with powerful filters",
         "headingSeven": "Stay connected with all of your friends",
-        "buttonText": "Sign Up For Free Now",
+        "buttonText": "Sign Up Now",
         "thumbOne": "/img/features_thumb.png",
         "thumbTwo": "/img/service_thumb_2.png",
         "thumbThree": "/img/welcome_mockup_2.png",
@@ -65,7 +65,7 @@ class ServiceSection extends Component {
                                 );
                             })}
                         </ul>
-                        <a href="/contact-page" className="btn btn-bordered mt-4">{this.state.buttonText}</a>
+                        <a href="https://app.broker411.co/" className="btn btn-bordered mt-4">{this.state.buttonText}</a>
                         </div>
                     </div>
                     <div className="col-12 col-lg-6 order-1 order-lg-2 d-none d-md-block">

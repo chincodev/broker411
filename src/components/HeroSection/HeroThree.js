@@ -4,7 +4,7 @@ const initData = {
     heading: "Drive With Confidence",
     headingTwo: "App in easy way",
     content: "Broker411 is the first ever software of its kind, allowing carriers to research & rate experiences with freight brokers all across the world.",
-    btnText: "Start free trail",
+    btnText: "Sign Up Now",
     iconClass: "fas fa-play"
 }
 
@@ -30,9 +30,9 @@ class HeroSection extends Component {
                         </h1>
                         <p className="text-white my-4">{this.state.data.content}</p>
                         {/* Subscribe Form */}
-                        <div className="subscribe-form d-flex align-items-center">
-                            <input type="email" className="form-control" placeholder="info@yourmail.com" />
-                            <button type="submit" className="btn btn-bordered">{this.state.data.btnText}</button>
+                        <div className="subscribe-form d-flex">
+                            {/* <input type="email" className="form-control" placeholder="info@yourmail.com" /> */}
+                            <button type="button" style={{position:'relative'}} onClick={()=>window.location.replace('https://app.broker411.co')} className="btn btn-bordered">{this.state.data.btnText}</button>
                         </div>
                         </div>
                     </div>

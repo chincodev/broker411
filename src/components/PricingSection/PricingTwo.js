@@ -28,20 +28,20 @@ class PricingSection extends Component {
                 // "li_3": "24/7 Tech Support",
                 // "li_4": "Daily Backups"
             },
-            {
-                "id": 2,
-                "planImage": "/img/price_basic.png",
-                "planTitle": "For carriers",
-                "priceSub": "$",
-                "planPrice": "8",
-                "planPriceCents": ".99",
-                "planBtn": "Sign Up",
-                "li_1": "Search broker information",
-                "li_2": "Search broker reviews",
-                "li_3": "Unlimited searches",
-                // "li_3": "24/7 Tech Support",
-                // "li_4": "Daily Backups"
-            },
+            // {
+            //     "id": 2,
+            //     "planImage": "/img/price_basic.png",
+            //     "planTitle": "For carriers",
+            //     "priceSub": "$",
+            //     "planPrice": "8",
+            //     "planPriceCents": ".99",
+            //     "planBtn": "Sign Up",
+            //     "li_1": "Search broker information",
+            //     "li_2": "Search broker reviews",
+            //     "li_3": "Unlimited searches",
+            //     // "li_3": "24/7 Tech Support",
+            //     // "li_4": "Daily Backups"
+            // },
             {
                 "id": 3,
                 "planImage": "/img/price_premium.png",
@@ -74,7 +74,11 @@ class PricingSection extends Component {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-12 col-sm-12 col-lg-12">
-                            <div className="row price-plan-wrapper">
+                            <div className="row price-plan-wrapper" style={{
+                                display:'flex',
+                                alignItems:'center',
+                                justifyContent:'center'
+                            }}>
                                 {this.state.pricingData.map((item, idx) => {
                                     return(
                                         <div key={`p_${idx}`} className="col-12 col-md-4 mt-4">

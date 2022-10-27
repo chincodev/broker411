@@ -7,24 +7,25 @@ const BASE_URL = "https://my-json-server.typicode.com/themeland/json-server-1/th
 class ContactSection extends Component {
     state = {
         "heading": "Have A Question, Concern, Or Suggestion?",
-        "headingText": "Fill out the form the information below if you have any questions, concerns, or suggestions and a team member will get back to you within 48h.",
-        "headingTexttwo": "Fill out the form the information below if you have any questions, concerns, or suggestions and a team member will get back to you within 48h.",
-        "content": "Fill out the form the information below if you have any questions, concerns, or suggestions and a team member will get back to you within 48h.",
+        // "headingText": "Fill out the form the information below if you have any questions, concerns, or suggestions and a team member will get back to you within 48h.",
+        // "headingTexttwo": "Fill out the form the information below if you have any questions, concerns, or suggestions and a team member will get back to you within 48h.",
+        // "content": "Fill out the form the information below if you have any questions, concerns, or suggestions and a team member will get back to you within 48h.",
+       
         "iconList": [
-            {
-                "id": 1,
-                "iconClass": "fas fa-home",
-                "text": "Vestibulum nulla libero, convallis, tincidunt suscipit diam, DC 2002"
-            },
-            {
-                "id": 2,
-                "iconClass": "fas fa-phone-alt",
-                "text": "+1 230 456 789-012 345 6789"
-            },
+            // {
+            //     "id": 1,
+            //     "iconClass": "fas fa-home",
+            //     "text": "Vestibulum nulla libero, convallis, tincidunt suscipit diam, DC 2002"
+            // },
+            // {
+            //     "id": 2,
+            //     "iconClass": "fas fa-phone-alt",
+            //     "text": "+1 230 456 789-012 345 6789"
+            // },
             {
                 "id": 3,
                 "iconClass": "fas fa-envelope",
-                "text": "exampledomain@domain.com"
+                "text": "support@broker411.co"
             }
         ]
     }
@@ -35,7 +36,7 @@ class ContactSection extends Component {
                 <div className="container">
                     <div className="row justify-content-center">
                     <div className="col-12 col-md-10 col-lg-6">
-                        {/* Section Heading */}
+                        
                         <div className="section-heading text-center">
                         <h2 className="text-capitalize">{this.state.heading}</h2>
                         <p className="d-none d-sm-block mt-4">{this.state.headingText}</p>

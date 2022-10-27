@@ -9,9 +9,9 @@ const initData = {
 const data = [
     {
         id: "1",
-        avatorImg: "/img/avatar-1.png",
-        reviewer: "Junaid Hasan",
-        post: "CEO, Themeland",
+        avatorImg: "/img/av1.jpg",
+        reviewer: "Billy Rikanshaw",
+        post: "Harley Son Trucking",
         text: "Broker411 has made it a lot easier to understand who I am really working with.",
         comments: "Broker411 has made it a lot easier to understand who I am really working with.",
         quotIcon: "/img/quote.png",
@@ -23,9 +23,9 @@ const data = [
     },
     {
         id: "2",
-        avatorImg: "/img/avatar-2.png",
+        avatorImg: "/img/av2.jpg",
         reviewer: "Jassica William",
-        post: "Web Designer",
+        post: "Webezo Transport",
         text: "Give this to your dispatch team and you won't have nearly as many problems.",
         comments: "Give this to your dispatch team and you won't have nearly as many problems.",
         quotIcon: "/img/quote.png",
@@ -37,9 +37,9 @@ const data = [
     },
     {
         id: "3",
-        avatorImg: "/img/avatar-3.png",
-        reviewer: "Johnson Smith",
-        post: "SEO Expert",
+        avatorImg: "/img/av3.jpg",
+        reviewer: "Smith Johnson",
+        post: "Peloys Trucking",
         text: "As carriers we never had a chance to have our voice heard. Now we finally do.",
         comments: "As carriers we never had a chance to have our voice heard. Now we finally do.",
         quotIcon: "/img/quote.png",

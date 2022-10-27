@@ -23,7 +23,7 @@ class PricingSection extends Component {
                 "planBtn": "Sign Up",
                 "li_1": "Search broker information",
                 "li_2": "Search broker reviews",
-                "li_3": "Two searches a day",
+                // "li_3": "Two searches a day",
                 // "li_2": "Search broker reviews",
                 // "li_3": "24/7 Tech Support",
                 // "li_4": "Daily Backups"
@@ -51,7 +51,7 @@ class PricingSection extends Component {
                 "planPriceCents": ".99",
                 "planBtn": "Sign Up",
                 "li_1": "Search carrier information",
-                "li_2": "Search broker reviews",
+                // "li_2": "Search broker reviews",
                 "li_3": "Reply to carrier reviews",
                 // "li_4": "Daily Backups"
             }

@@ -171,10 +171,10 @@ class FooterSection extends Component {
                             </div>
                             <div className="col-12 col-sm-6 col-lg-3">
                             {/* Footer Items */}
-                            <div className="footer-items">
-                                {/* Footer Title */}
+                            {/* <div className="footer-items">
+                       
                                 <h3 className="footer-title mb-2">{this.state.linkText_3}</h3>
-                                {/* Store Buttons */}
+                               
                                 <div className="button-group store-buttons store-black d-flex flex-wrap">
                                     {this.state.footerList_3.map((item, idx) => {
                                         return(
@@ -184,7 +184,7 @@ class FooterSection extends Component {
                                         );
                                     })}
                                 </div>
-                            </div>
+                            </div> */}
                             </div>
                         </div>
                         </div>
@@ -199,7 +199,7 @@ class FooterSection extends Component {
                                 {/* Copyright Left */}
                                 <div className="copyright-left">© Copyrights 2021 Broker411 All rights reserved.</div>
                                 {/* Copyright Right */}
-                                <div className="copyright-right">Made with <i className="fas fa-heart" /> In <a href="/#">California</a></div>
+                                {/* <div className="copyright-right">Made with <i className="fas fa-heart" /> In <a href="/#">California</a></div> */}
                             </div>
                             </div>
                         </div>

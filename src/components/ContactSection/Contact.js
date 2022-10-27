@@ -47,6 +47,7 @@ class ContactSection extends Component {
                     <div className="row justify-content-between">
                     <div className="col-12 col-md-5">
                         {/* Contact Us */}
+                        
                         <div className="contact-us">
                         <p className="mb-3">{this.state.content}</p>
                             <ul>

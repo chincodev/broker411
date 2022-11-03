@@ -9,8 +9,8 @@ class PricingSection extends Component {
         "preHeading": "Flexible",
         "preHeadingspan": "Pricing",
         "heading": "Access Broker411",
-        "headingText": "Broker411 is free for carriers for up to 2 searches per day. Free searches are limited to a total of 2 per day and 20 per month.",
-        "headingTexttwo": "Broker411 is free for carriers for up to 2 searches per day. Free searches are limited to a total of 2 per day and 20 per month.",
+        "headingText": "Carriers finally have a place to let their voices be heard. Sign up and get started for free today.",
+        "headingTexttwo": "Carriers finally have a place to let their voices be heard. Sign up and get started for free today.",
         "text": "Not sure what to choose?",
         "textLink": "Contact Us",
         "pricingData": [
@@ -47,12 +47,12 @@ class PricingSection extends Component {
                 "planImage": "/img/price_premium.png",
                 "planTitle": "For brokers",
                 "priceSub": "$",
-                "planPrice": "49",
+                "planPrice": "9",
                 "planPriceCents": ".99",
                 "planBtn": "Sign Up",
                 "li_1": "Search carrier information",
                 // "li_2": "Search broker reviews",
-                "li_3": "Reply to carrier reviews",
+                "li_2": "Reply to carrier reviews",
                 // "li_4": "Daily Backups"
             }
         ]
@@ -107,7 +107,7 @@ class PricingSection extends Component {
                                                 </div>
                                                 {/* Plan Button */}
                                                 <div className="plan-button">
-                                                    <a href="/contact-page" className="btn mt-4">{item.planBtn}</a>
+                                                    <a href="https://app.broker411.co/register/" className="btn mt-4">{item.planBtn}</a>
                                                 </div>
                                             </div>
                                         </div>

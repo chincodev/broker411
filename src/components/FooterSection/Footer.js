@@ -129,7 +129,7 @@ class FooterSection extends Component {
                                 </a>
                                 <p className="mt-2 mb-3">Broker411 gives carriers the ability to research the companies that they work with before doing business with them.</p>
                                 {/* Social Icons */}
-                                <div className="social-icons d-flex">
+                                {/* <div className="social-icons d-flex">
                                     {this.state.iconList.map((item, idx) => {
                                         return(
                                             <a key={`fi_${idx}`} className={item.link} href="/#">
@@ -138,7 +138,7 @@ class FooterSection extends Component {
                                             </a>
                                         );
                                     })}
-                                </div>
+                                </div> */}
                             </div>
                             </div>
                             <div className="col-12 col-sm-6 col-lg-3">

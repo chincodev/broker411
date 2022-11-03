@@ -197,7 +197,7 @@ class FooterSection extends Component {
                             {/* Copyright Area */}
                             <div className="copyright-area d-flex flex-wrap justify-content-center justify-content-sm-between text-center py-4">
                                 {/* Copyright Left */}
-                                <div className="copyright-left">© Copyrights 2021 Broker411 All rights reserved.</div>
+                                <div className="copyright-left">© Copyrights 2022 Broker411 All rights reserved.</div>
                                 {/* Copyright Right */}
                                 {/* <div className="copyright-right">Made with <i className="fas fa-heart" /> In <a href="/#">California</a></div> */}
                             </div>

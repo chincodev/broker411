@@ -64,7 +64,7 @@ class ReviewSection extends Component {
     }
     render() {
         return (
-            <section id="review" className="review-area ptb_100">
+            <section id="reviews" className="review-area ptb_100">
                 <div className="container">
                     <div className="row justify-content-center">
                     <div className="col-12 col-md-10 col-lg-8">

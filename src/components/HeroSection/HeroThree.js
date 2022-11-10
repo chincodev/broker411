@@ -40,14 +40,7 @@ class HeroSection extends Component {
                         {/* Welcome Thumb */}
                         <div className="welcome-thumb text-center mx-auto">
                         {/* Play Button */}
-                        <a className="play-btn" data-fancybox href="https://www.youtube.com/watch?v=hs1HoLs4SD0">
-                            <div className="btn-circle play-animation" />
-                            <div className="btn-circle play-animation animation-short" />
-                            {/* Play Icon */}
-                            <div className="play-icon">
-                                <i className={this.state.data.iconClass} />
-                            </div>
-                        </a>
+                      
                         </div>
                     </div>
                     </div>

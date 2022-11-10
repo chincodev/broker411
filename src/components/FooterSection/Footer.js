@@ -58,27 +58,31 @@ class FooterSection extends Component {
                 "link": "reviews",
                 "text": "Reviews"
             },
+            {
+                "id": 4,
+                "link": "contact",
+                "text": "Contact"
+            },
         ],
         "footerList_2": [
+            // {
+            //     "id": 1,
+            //     "text": "FAQ"
+            // },
             {
                 "id": 1,
-                "text": "FAQ"
+                "text": "Privacy Policy",
+                "link": "privacy"
             },
             {
                 "id": 2,
-                "text": "Privacy Policy"
+                "text": "Cookie policy",
+                "link": "cookie"
             },
             {
                 "id": 3,
-                "text": "Cookie policy"
-            },
-            {
-                "id": 4,
-                "text": "Terms & Conditions"
-            },
-            {
-                "id": 5,
-                "text": "Contact"
+                "text": "Terms & Conditions",
+                "link": "terms"
             }
         ],
         "footerList_3": [
@@ -159,11 +163,11 @@ class FooterSection extends Component {
                             {/* Footer Items */}
                             <div className="footer-items">
                                 {/* Footer Title */}
-                                <h3 className="footer-title mb-2">{this.state.linkText_2}</h3>
+                                <h3 className="footer-title mb-2">{'Legal'}</h3>
                                 <ul>
                                     {this.state.footerList_2.map((item, idx) => {
                                         return(
-                                            <li key={`flt_${idx}`} className="py-2"><a href={"#"+item.link}>{item.text}</a></li>
+                                            <li key={`flt_${idx}`} className="py-2"><a href={'/'+item.link}>{item.text}</a></li>
                                         );
                                     })}
                                 </ul>
@@ -197,7 +201,7 @@ class FooterSection extends Component {
                             {/* Copyright Area */}
                             <div className="copyright-area d-flex flex-wrap justify-content-center justify-content-sm-between text-center py-4">
                                 {/* Copyright Left */}
-                                <div className="copyright-left">© Copyrights 2022 Broker411 All rights reserved.</div>
+                                <div className="copyright-left">© Copyright 2022 Broker411 All rights reserved.</div>
                                 {/* Copyright Right */}
                                 {/* <div className="copyright-right">Made with <i className="fas fa-heart" /> In <a href="/#">California</a></div> */}
                             </div>

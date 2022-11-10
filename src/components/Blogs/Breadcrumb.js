@@ -13,7 +13,6 @@ class Breadcrumb extends Component {
                                 <h3 className="text-white">{this.props.title}</h3>
                                 <ol className="breadcrumb justify-content-center">
                                     <li className="breadcrumb-item"><Link className="text-white" to="/">Home</Link></li>
-                                    <li className="breadcrumb-item"><Link className="text-white" to="/BlogTwoColumn/">Blog Pages</Link></li>
                                     <li className="breadcrumb-item active text-white">{this.props.title}</li>
                                 </ol>
                             </div>

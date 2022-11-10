@@ -21,25 +21,25 @@ class Header extends Component {
                         <nav>
                             <ul className="navbar-nav" id="navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link scroll" href="#home" >Home</a>
+                                    <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#home" >Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link scroll" href="#features">Features</a>
+                                    <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#features">Features</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link scroll" href="#work">what is Broker411?</a>
+                                    <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#work">What is Broker411?</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link scroll" href="#service">Service</a>
+                                    <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#service">Service</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link scroll" href="#pricing">Pricing</a>
+                                    <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#pricing">Pricing</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link scroll" href="#review">Reviews</a>
+                                    <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#review">Reviews</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link scroll" href="#contact">Contact</a>
+                                    <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#contact">Contact</a>
                                 </li>
                             </ul>
                         </nav>

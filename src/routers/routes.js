@@ -26,6 +26,9 @@ import Forgot from "../components/Accounts/Forgot";
 import Faq from "../components/FaqSection/Faq";
 import ErrorPage from "../components/ErrorPage/404";
 import ContactPage from "../components/ContactSection/ContactPage";
+import Terms from "../components/Terms/Terms";
+import Privacy from "../components/Privacy/Privacy";
+import Cookie from "../components/Cookie/Cookie";
 
 class MyRouts extends React.Component {
   render() {
@@ -34,29 +37,10 @@ class MyRouts extends React.Component {
         <Router>
           <Switch>
             <Route exact path="/" component={ThemeThree} />
-            {/* <Route path="/theme-two" component={ThemeTwo} />
-            <Route path="/theme-three" component={ThemeThree} />
-            <Route path="/theme-four" component={ThemeFour} />
-            <Route path="/theme-five" component={ThemeFive} />
-            <Route path="/theme-six" component={ThemeSix} />
-            <Route path="/blog-two-column" component={BlogTwoColumn} />
-            <Route path="/blog-three-column" component={BlogThreeColumn} />
-            <Route path="/blog-left-sidebar" component={BlogLeftSidebar} />
-            <Route path="/blog-right-sidebar" component={BlogRightSidebar} />
-            <Route path="/blog-details-left-sidebar" component={BlogDetailsLeftSidebar} />
-            <Route path="/blog-details-right-sidebar" component={BlogDetailsRightSidebar} />
-            <Route path="/reviews" component={Reviews} />
-            <Route path="/pricing" component={Pricing} />
-            <Route path="/download-page" component={DownloadPage} />
-            <Route path="/subscribe-page" component={SubscribePage} />
-            <Route path="/thank-you" component={ThankYou} />
-            <Route path="/coming-soon" component={ComingSoon} />
-            <Route path="/login" component={Login} />
-            <Route path="/signup" component={Signup} />
-            <Route path="/forgot" component={Forgot} />
-            <Route path="/faq" component={Faq} />
-            <Route path="/error-page" component={ErrorPage} />
-            <Route path="/contact-page" component={ContactPage} /> */}
+            <Route path="/privacy" component={Privacy} /> 
+            <Route path="/cookie" component={Cookie} /> 
+            <Route path="/terms" component={Terms} /> 
+            <Route path="/faq" component={Faq} /> 
           </Switch>
         </Router>
       </div>

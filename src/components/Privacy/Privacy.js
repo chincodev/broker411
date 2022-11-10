@@ -21,15 +21,7 @@ class Privacy extends Component {
                     <Breadcrumb title="Privacy Policy" />
                     <section className="section faq-area style-two ptb_100">
                 <div className="container">
-                    <div className="row justify-content-center">
-                        
-                            {/* Section Heading */}
-                            <div className="section-heading text-center">
-                                {/* <h2 className="text-capitalize">Terms & Conditions</h2> */}
-                                <p className="d-none d-sm-block mt-4">sadas asdasd asdasd asda s</p>
-                            </div>
                    
-                    </div>
                     <p>
                     
 

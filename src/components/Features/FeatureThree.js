@@ -62,7 +62,7 @@ class FeatureSection extends Component {
                     </div>
                     </div>
                     <div className="row align-items-center">
-                    <div className="col-12 col-md-6 col-lg-4">
+                    <div className="col-12 col-md-6 col-lg-6">
                         {/* Features Item */}
                         <ul className="features-item">
                             {this.state.featureData.map((item, idx) => {
@@ -85,13 +85,13 @@ class FeatureSection extends Component {
                             })}
                         </ul>
                     </div>
-                    <div className="col-12 col-lg-4 d-none d-lg-block">
-                        {/* Featutes Thumb */}
+                    {/* <div className="col-12 col-lg-4 d-none d-lg-block">
+                        
                         <div className="features-thumb text-center">
                         <img src={'/img/features_thumb.png'} alt="" />
                         </div>
-                    </div>
-                    <div className="col-12 col-md-6 col-lg-4">
+                    </div> */}
+                    <div className="col-12 col-md-6 col-lg-6">
                         {/* Features Item */}
                         <ul className="features-item">
                             {this.state.featureData_1.map((item, idx) => {

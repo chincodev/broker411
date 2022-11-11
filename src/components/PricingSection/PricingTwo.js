@@ -23,6 +23,7 @@ class PricingSection extends Component {
                 "planBtn": "Sign Up",
                 "li_1": "Search broker information",
                 "li_2": "Search broker reviews",
+                "li_3": "Search and book loads (coming soon)"
                 // "li_3": "Two searches a day",
                 // "li_2": "Search broker reviews",
                 // "li_3": "24/7 Tech Support",
@@ -50,9 +51,10 @@ class PricingSection extends Component {
                 "planPrice": "9",
                 "planPriceCents": ".99",
                 "planBtn": "Sign Up",
-                "li_1": "Search carrier information",
-                // "li_2": "Search broker reviews",
-                "li_2": "Reply to carrier reviews",
+                "smallTxt":"Only replying to reviews is free",
+                "li_1": "Search Carrier Information",
+                "li_2": "Reply to reviews and interact with carriers",
+                "li_3": "Post loads (coming soon)",
                 // "li_4": "Daily Backups"
             }
         ]
@@ -95,6 +97,7 @@ class PricingSection extends Component {
                                                 {/* Plan Price */}
                                                 <div className="plan-price pb-2 pb-sm-3">
                                                     <h1 className="color-primary"><small className="fw-7">{item.priceSub}</small>{item.planPrice}<small className="fw-7">{item.planPriceCents}</small></h1>
+                                                    <small><strong>{item.smallTxt}</strong></small>
                                                 </div>
                                                 {/* Plan Description */}
                                                 <div className="plan-description">

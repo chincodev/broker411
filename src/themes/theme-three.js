@@ -17,6 +17,9 @@ class ThemeThree extends Component {
     render() {
         return (
             <div className="homepage-3">
+                <div style={{fontSize:'12px', fontWeight:'700', width:'100%', paddingTop:'5px', paddingBottom:'5px', backgroundColor:'pink', textAlign:'center', display:'flex', alignItems:'center', justifyContent:'center'}}>
+                Carriers can win a $100 Amazon Gift Card or the equivalent in Crypto or Paypal! Each review you leave counts as one entry. A winner will be selected on Thanksgiving day at 4:00 PM PST.
+                    </div>
                 {/*====== Scroll To Top Area Start ======*/}
                 <div id="scrollUp" title="Scroll To Top">
                     <i className="fas fa-arrow-up" />

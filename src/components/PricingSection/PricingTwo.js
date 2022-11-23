@@ -47,14 +47,14 @@ class PricingSection extends Component {
                 "id": 3,
                 "planImage": "/img/price_premium.png",
                 "planTitle": "For brokers",
-                "priceSub": "$",
-                "planPrice": "9",
-                "planPriceCents": ".99",
+                "priceSuba": "Response Only",
+                //"planPrice": "9",
+                // "planPriceCents": ".99",
                 "planBtn": "Sign Up",
-                "smallTxt":"Only replying to reviews is free",
-                "li_1": "Search Carrier Information",
-                "li_2": "Reply to reviews and interact with carriers",
-                "li_3": "Post loads (coming soon)",
+                "smallTxt":"Replying to reviews is free",
+                "li_1": "Brokers can only view and respond to reviews left about themselves or their company.",
+                "li_2": "Post Loads (Coming Soon)",
+                // "li_3": "Post loads (coming soon)",
                 // "li_4": "Daily Backups"
             }
         ]
@@ -96,6 +96,7 @@ class PricingSection extends Component {
                                                 </div>
                                                 {/* Plan Price */}
                                                 <div className="plan-price pb-2 pb-sm-3">
+                                                    <h3>{item.priceSuba}</h3>
                                                     <h1 className="color-primary"><small className="fw-7">{item.priceSub}</small>{item.planPrice}<small className="fw-7">{item.planPriceCents}</small></h1>
                                                     <small><strong>{item.smallTxt}</strong></small>
                                                 </div>

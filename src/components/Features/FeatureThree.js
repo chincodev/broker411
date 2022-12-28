@@ -55,7 +55,7 @@ class FeatureSection extends Component {
                     <div className="col-12 col-md-10 col-lg-6">
                         {/* Section Heading */}
                         <div className="section-heading text-center">
-                        <h2>Why Carriers & Brokers Both Love Broker411</h2>
+                        <h2>Why Carriers Love Broker411</h2>
                         <p className="d-none d-sm-block mt-4">Want to research and verify a Freight Broker or a particular agent in an instant? We make it super easy for you to understand who you are doing business with. Read about & leave your own experience with a particular freight brokerage or agent for the rest of the carrier community to read.</p>
                         <p className="d-block d-sm-none mt-4">Want to research and verify a Freight Broker or a particular agent in an instant? We make it super easy for you to understand who you are doing business with. Read about & leave your own experience with a particular freight brokerage or agent for the rest of the carrier community to read.</p>
                         </div>

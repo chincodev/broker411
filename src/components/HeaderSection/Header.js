@@ -27,7 +27,7 @@ class Header extends Component {
                                     <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#features">Features</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#work">What is Broker411?</a>
+                                    <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#work">About</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#service">Service</a>
@@ -36,10 +36,16 @@ class Header extends Component {
                                     <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#pricing">Pricing</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#review">Reviews</a>
+                                    <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#reviews">Reviews</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className={`nav-link ${window.location.pathname.length > 1 ? '' : 'scroll'}`} href="/#contact">Contact</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className={`btn yellow ml-4 pl-3 pr-3`} style={{backgroundColor:'yellow'}} href="https://app.broker411.co/register">Get Started</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className={`btn yellow ml-4 pl-3 pr-3`} style={{backgroundColor:'yellow'}} href="https://app.broker411.co">Log In</a>
                                 </li>
                             </ul>
                         </nav>

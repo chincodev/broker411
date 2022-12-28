@@ -509,6 +509,11 @@ img {
     background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
 }
 
+.btn.yellow{
+    margin-top: 1rem;
+    background: #37aba6 !important;
+}
+
 /*SOCIAL ICONS*/
 .social-icons > a {
     margin: 5px;

@@ -4,7 +4,7 @@ const initData = {
     heading: "Drive With Confidence",
     headingTwo: "App in easy way",
     content: "Broker411 is the first ever software of its kind, allowing carriers to research & rate experiences with freight brokers all across the world.",
-    btnText: "Sign Up Now",
+    btnText: "Start Now",
     iconClass: "fas fa-play"
 }
 

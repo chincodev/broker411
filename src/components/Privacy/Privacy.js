@@ -20,7 +20,7 @@ class Privacy extends Component {
                     <Header imageData={"/img/logo-white.png"} />
                     <Breadcrumb title="Privacy Policy" />
                     <section className="section faq-area style-two ptb_100">
-                <div className="container">
+                {/* <div className="container">
                    
                     <p>
                     
@@ -107,7 +107,7 @@ Broker411 does not knowingly collect any Personal Identifiable Information from 
 
 
                     </p>
-                </div>
+                </div> */}
             </section>
                     <FooterSection />
                 </div>

@@ -20,7 +20,7 @@ class Terms extends Component {
                     <Header imageData={"/img/logo-white.png"} />
                     <Breadcrumb title="Terms & Conditions" />
                     <section className="section faq-area style-two ptb_100">
-                <div className="container">
+                {/* <div className="container">
                     <div className="row justify-content-center">
                         
                         <div class="section-heading text-center">
@@ -128,7 +128,7 @@ As long as the website and the information and services on the website are provi
                            
                       
                   
-                </div>
+                </div> */}
             </section>
                     <FooterSection />
                 </div>

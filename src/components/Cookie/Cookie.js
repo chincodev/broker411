@@ -20,10 +20,10 @@ class Cookie extends Component {
                     <Header imageData={"/img/logo-white.png"} />
                     <Breadcrumb title="Cookie Policy" />
                     <section className="section faq-area style-two ptb_100">
-                <div className="container">
+                {/* <div className="container">
                     <div className="row justify-content-center">
                       
-                            {/* Section Heading */}
+                          
                             <div className="section-heading text-center">
                            
                             <h2 className='text-capitalize'>Welcome to Broker411.co!</h2>
@@ -154,7 +154,7 @@ If you have any questions about this Cookies Policy, You can contact us:
                            
                         </div>
               
-                </div>
+                </div> */}
             </section>
                     <FooterSection />
                 </div>
